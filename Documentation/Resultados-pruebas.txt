@@ -1,0 +1,23 @@
+PASS Version exacta
+PASS Minimo de seis Boids
+PASS Ataques en simulacion
+PASS Recoleccion en simulacion
+PASS Reaparicion en simulacion
+PASS Consumo completo de objetos
+PASS Rest observado
+Estados cazador: Patrol, Hunt, Gather, Rest
+Estados Boid: Flocking, Seek Object, Consume, Evade, Dead, Respawn
+Ataques=57; recolecciones=28; respawns=27; objetos consumidos=17
+PASS Ranged resta un hit y no abandona Hunt
+PASS TBA impide segundo ataque inmediato
+PASS Conserva presa fuera de vision
+PASS Salida de bounds vuelve a Patrol sin recarga
+PASS Agotamiento en Hunt entra en Rest
+PASS Rest ignora vivos y muertos
+PASS Rest completo retorna Patrol con una sola transicion
+PASS Cadaver local tiene prioridad en Patrol
+PASS Gather cancela ante cadaver no disponible
+PASS Dead pasa a Respawn solo tras recoleccion
+PASS Melee aplica dos hits y Dead tiene prioridad
+PASS Contribuciones steering limitadas antes de pesos
+PASS Arrive frena fuera del volumen del objeto

@@ -1,0 +1,17 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Builds/
+/.vs/
+*.csproj
+*.sln
+*.slnx
+*.log
+
+/.tools/
+/tmp/
+/Tools/
+/output/
+/Entrega/*.zip
